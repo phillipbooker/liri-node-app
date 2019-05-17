@@ -52,7 +52,7 @@ switch(command){
             
             if(textCommand[1] !== undefined){
                 // Removes double quotes from title in text file
-                fTitle = textCommand[1].replace(/["]+/g, '');
+                fTitle = textCommand[1].replace(/['"]+/g, '');
             }
 
             console.log("Text Command: " + fCommand);
