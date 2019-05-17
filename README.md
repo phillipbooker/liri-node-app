@@ -15,10 +15,13 @@ To use the Spotify API, the user must have a `.env` file with the correct SPOTIF
 ### Running liri
 - Open the terminal
 - Run `npm install` in the command line
-- Once the packages have been installed, run one of the following commands: concert-this, spotify-this, movie-this, do-what-it-says
-- If one of the 'this' functions are being run, use the following format: `node liri.js spotify-this 'song title'`
+- Once the packages have been installed, run one of the following commands: concert-this, spotify-this-song, movie-this, do-what-it-says
+- If one of the 'this' functions are being run, use the following format: `node liri.js spotify-this-song 'song title'`
 - If using do-what-it-says, ensure your `random.txt` file has a command in the following format: `concert-this,"Ariana Grande"`
 - The output will be printed to the console.
+
+#### Demo Video
+https://youtu.be/c4cl6Lf-xuA
 
 ### Technologies
 JavaScript, Node.js, npm, Axios, DotEnv, moment.js

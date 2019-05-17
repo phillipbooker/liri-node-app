@@ -146,10 +146,10 @@ function spotifyThis(title){
                     artists.push(artist.name);
                 }
             });
-            // console.log(JSON.stringify(artistsObj, null, 2));
+            // console.log(JSON.stringify(track, null, 8));
 
             var song = track.name;
-            var preview = track.preview;
+            var preview = track.preview_url;
             var album = track.album.name;
 
             //Output to user
